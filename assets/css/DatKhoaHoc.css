@@ -1,0 +1,92 @@
+body {
+    margin-top: 0px;
+    /* margin-left: 550px; */
+    background-image: url('/Assignment_web207/assets/img/contatc-bg.webp');
+}
+
+img {
+    margin-right: 300hv;
+}
+
+.container {
+    margin-top: 0%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.form-container {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-left: 540px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+input,
+select {
+    width: 95%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 33px;
+}
+
+option {
+    font-size: 15px;
+}
+
+button {
+    background-color: #08ae7a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+    width: 120px;
+    outline: 0;
+    border: none;
+    height: 36px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: background-color 0.2s;
+    box-shadow: #ccc 2px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(11, 80, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 70%;
+}

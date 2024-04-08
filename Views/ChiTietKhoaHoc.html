@@ -1,0 +1,47 @@
+<head>
+    <link rel="stylesheet" href="/Assignment_web207/assets/css/QLKH.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Assignment_web207/assets/css/styles.css">
+    <link rel="shortcut icon" href="/Assignment/img/logo-FPT-Polytechnic-.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="body">
+        <div class="form">
+            <form ng-submit="add()">
+                <h1 class="text-center">{{title}}</h1>
+                <div class="form-group">
+                    <label for="maKhoaHoc">Mã khóa học:</label>
+                    <input type="text" class="form-control" ng-model="khoahoc.code" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="tenKhoaHoc">Tên khóa học:</label>
+                    <input type="text" class="form-control" ng-model="khoahoc.name" disabled>
+
+                </div>
+                <div class="form-group">
+                    <label for="thoiLuong">Thời lượng (giờ):</label>
+                    <input type="text" class="form-control" ng-model="khoahoc.time" disabled>
+
+                </div>
+                <div class="form-group">
+                    <label for="hocPhi">Học phí (VNĐ):</label>
+                    <input type="text" class="form-control" ng-model="khoahoc.const" disabled>
+
+                </div>
+                <div class="mt-3" style="margin-left: 30px;">
+                    <a href="#!Quan-Ly">
+                        <button class="btn btn-success">Quay lại</button>
+                    </a>
+                    <a href="#!/Sua-KhoaHoc/{{khoahoc.editID}}">
+                        <button class="btn btn-danger">Chỉnh sửa</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

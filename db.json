@@ -1,0 +1,39 @@
+{
+  "khoahoc": [
+    {
+      "ma": "KH04",
+      "ten": "Full-Stack",
+      "thoiluong": "720 gio",
+      "hocphi": "41800000",
+      "id": "9f51"
+    },
+    {
+      "ma": "KH01",
+      "ten": "Automation test",
+      "thoiluong": "720 gio",
+      "hocphi": "20000000",
+      "id": "17f8"
+    },
+    {
+      "id": "5811",
+      "ma": "KH02",
+      "ten": "Test manual",
+      "thoiluong": "100 giờ",
+      "hocphi": "5000000"
+    },
+    {
+      "id": "33d2",
+      "ma": "KH05",
+      "ten": "Lập trình C#",
+      "thoiluong": "150 giờ",
+      "hocphi": "10000000"
+    },
+    {
+      "id": "fcb9",
+      "ma": "KHH04",
+      "ten": "WEB",
+      "thoiluong": "150 gio",
+      "hocphi": "5000000"
+    }
+  ]
+}
